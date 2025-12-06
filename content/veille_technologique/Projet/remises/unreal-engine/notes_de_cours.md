@@ -113,11 +113,11 @@ Pour comprendre comment fonctionne un projet d’Unreal
 Engine, il faut d’abord connaître ses concepts de base. Tout commence avec le Level, qui représente
 simplement un niveau ou une scène dans le jeu, c’est l’endroit où on place les
 objets, les lumières, le décor et où se déroule l’action. Ces objets placés
-dans un niveau sont appelés des Actors,
-ce terme englobe tout, qu’il s’agit d’un cube, d’un personnage, d’une porte,
+dans un niveau sont appelés des Actors.
+Ce terme englobe tout, qu’il s’agit d’un cube, d’un personnage, d’une porte,
 d’une lumière ou d’un ennemi. Chaque Actor est composé d’éléments plus petits
 qu’on appelle des Components,
-qui lui donnent ses fonctionnalités. Par exemple, un mesh 3D, une collision,
+qui lui donnent ses fonctionnalités. Par exemple, un mesh 3D (ensemble de lignes et de points qui forment un objet 3D), une collision (sert à détecter les contacts entre objets),
 une lumière ou un son sont chacun des Components qu’on assemble pour définir ce
 qu’un Actor peut faire ou comment il se comporte. 
 
@@ -158,7 +158,7 @@ environnements 3D. Ces outils rendent le moteur plus puissant, plus réaliste et
 surtout plus simple à utiliser. Les technologies les plus importantes à
 connaître pour comprendre ce qui fait la force d’UE5 sont : 
 
-Nanite (La géométrie virtuelle) 
+#### Nanite (La géométrie virtuelle) 
 Nanite est sans doute l’une des avancées les plus marquantes
 d’Unreal Engine 5. Habituellement, les modèles 3D utilisés dans un jeu doivent
 être fortement optimisés : 
@@ -171,7 +171,7 @@ utilisés dans le cinéma ou la modélisation professionnelle. Ainsi le moteur
 s’occupe lui-même de gérer le niveau de détail en fonction de la position de la
 caméra. 
 
-Lumen (L’éclairage global en temps réel) 
+#### Lumen (L’éclairage global en temps réel) 
 Lumen est le nouveau système d’éclairage global d’Unreal
 Engine 5. 
 Avant lui, obtenir une lumière réaliste nécessitait de “baker” les éclairages :
@@ -188,7 +188,7 @@ surtout beaucoup plus faciles à modifier. Les créateurs gagnent un temps
 considérable, puisque le moteur gère automatiquement les rebonds lumineux,
 l’illumination globale et les ombres complexes. 
 
-Niagara (Le système de particules avancé) 
+#### Niagara (Le système de particules avancé) 
 Niagara est l’outil utilisé pour créer les effets visuels :
 explosions, fumée, feu, neige, magie, nuages, etc. 
 C’est un système très flexible où on peut contrôler presque tous les paramètres
@@ -197,7 +197,7 @@ même créer des comportements complexes comme un groupe de particules influenc�
 par la physique. 
 Pour les effets spéciaux, c’est l’un des outils les plus puissants du marché. 
 
-Chaos Physics (Le moteur physique d’UE5) 
+#### Chaos Physics (Le moteur physique d’UE5) 
 Chaos est le moteur de physique intégré dans Unreal Engine 5. Il gère : 
 les collisions, 
 les destructions d’objets, 
@@ -209,7 +209,7 @@ objets de manière réaliste, sans devoir préanimer ou précalculer quoi que ce
 soit. C’est parfait pour les jeux d’action, les simulations, ou même les démos
 techniques. 
 
-World Partition (Gestion automatique des mondes ouverts) 
+#### World Partition (Gestion automatique des mondes ouverts) 
 Avant UE5, créer un monde ouvert était compliqué, il fallait
 diviser la carte en petits morceaux, les charger à la main ou via des scripts. 
 Avec World Partition, le moteur coupe automatiquement le monde en sections et
@@ -220,6 +220,7 @@ plus rapide,
 plus efficace. 
 C’est aussi ce système qui permet à plusieurs développeurs
 de travailler en même temps sur la même carte sans se marcher sur les pieds.
+
 
 
 ## Le pipeline graphique 
@@ -268,7 +269,7 @@ ralentit le jeu), le moteur ne garde en RAM que les zones nécessaires. Les autr
 chargent automatiquement quand le joueur s’en
 approche. 
 
-En tant que telle, cela permet de créer des mondes beaucoup
+En tant que tel, cela permet de créer des mondes beaucoup
 plus grands et détaillés, sans faire exploser les performances. Par exemple, on
 peut diviser une grande map en plusieurs petites sections, comme une ville
 séparée en quartiers. Quand le joueur marche vers un nouveau quartier, Unreal
@@ -345,3 +346,115 @@ automatiques, ça peut pousser certains développeurs à trop compter sur les
 systèmes inclus. Le moteur permet d’aller très loin, mais pour exploiter tout
 son potentiel, il faut quand même apprendre la logique derrière chaque
 technologie comme les Blueprints, les matériaux, les niveaux.
+
+
+
+## Sources 
+
+1.Introduction 
+
+Documentation officielle Unreal Engine 5 
+https://docs.unrealengine.com 
+→ Informations techniques sur le moteur, Blueprints, Lumen, Nanite, etc. 
+
+Présentation officielle Unreal Engine 
+https://www.unrealengine.com/fr/features 
+→ Description générale du moteur et des fonctionnalités principales. 
+
+Epic Games – Blog et notes de version UE5 
+https://www.unrealengine.com/en-US/blog 
+→ Évolutions, nouveautés et explications des technologies de l’UE5. 
+
+ 
+
+2.Historique/Évolutions  
+
+Unreal Engine — Versions précédentes : https://www.unrealengine.com 
+
+Documentation archive UE1 à UE5 :  https://docs.unrealengine.com 
+
+GDC — Unreal Engine Evolution Talks : https://www.youtube.com/user/gdconf 
+
+ 
+
+3.Architecture interne 
+
+Unreal Engine Documentation — Editor Interface Overview : https://docs.unrealengine.com 
+
+Documentation UE5 — Gameplay Framework Overview : https://docs.unrealengine.com 
+
+ 
+
+4.Concepts fondamentaux 
+
+Levels — Level Design Basics : https://docs.unrealengine.com 
+
+Actors & Components : https://docs.unrealengine.com 
+
+Pawn & Character : https://docs.unrealengine.com 
+
+PlayerController & AIController : https://docs.unrealengine.com 
+
+ 
+
+Technologies clés : Documentation officielle Unreal Engine 
+
+Nanite Virtualized Geometry : https://docs.unrealengine.com 
+
+Lumen Global Illumination : https://docs.unrealengine.com 
+
+Niagara VFX System : https://docs.unrealengine.com 
+
+Chaos Physics & Destruction : https://docs.unrealengine.com 
+
+World Partition Overview : https://docs.unrealengine.com 
+
+ 
+
+Pipelin Graphique 
+
+Lumen Technical Documentation : https://docs.unrealengine.com 
+
+PostProcessing Guide : https://docs.unrealengine.com 
+
+ 
+
+Streaming Levels 
+
+Level Streaming Documentation : https://docs.unrealengine.com 
+
+World Partition Overview : https://docs.unrealengine.com 
+
+ 
+
+Cas d’utilisation
+
+Jeux vidéo : https://www.unrealengine.com/en-US/spotlights 
+
+https://www.pcgamer.com 
+
+Cinéma : https://www.ilm.com 
+
+https://www.unrealengine.com/industry/film-tv 
+
+Architecture: https://docs.unrealengine.com 
+
+Simulation et VR: https://docs.unrealengine.com 
+
+Éducation : https://learn.unrealengine.com 
+
+ 
+
+Avantages & limites 
+
+Documentation officielle 
+
+Unreal Engine Features — https://www.unrealengine.com 
+
+Documentation UE5 — https://docs.unrealengine.com 
+
+Analyses / Articles 
+
+Digital Foundry — UE5 Technical Analysis 
+
+GamesIndustry.biz — Adoption & limits of UE5
