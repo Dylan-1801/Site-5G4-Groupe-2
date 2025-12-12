@@ -73,13 +73,13 @@ https://www.youtube.com/@UnrealSensei
 - Reubs – Tutoriels Unreal Engine 5 simples et accessibles
 https://www.youtube.com/@reubs
 
-- GameDevGuide – Explications techniques UE5
+- GameDevGuide – Explications techniques pour UE5
 https://www.youtube.com/@GameDevGuide
 
 - PrismaticaDev – Formation méthodique sur Unreal Engine
 https://www.youtube.com/@PrismaticaDev
 
-- Digital Foundry – Analyses techniques neutres sur des jeux UE5
+- Digital Foundry – Analyses techniques neutres sur des jeux créés avec UE5
 https://www.youtube.com/@digitalfoundry
 
 - Comptes Twitter / X pertinents :
