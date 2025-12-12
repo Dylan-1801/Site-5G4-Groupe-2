@@ -1,8 +1,10 @@
 ---
 title: "Solution de l'atelier"
-weight: 50
-icon: cpu
+icon: rocket
+weight: 1
+chapter: true
 ---
+
 
 # Création d’un jeu avec Unreal Engine
 
