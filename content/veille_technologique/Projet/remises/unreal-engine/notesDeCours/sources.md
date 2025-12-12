@@ -88,9 +88,9 @@ Cinéma : https://www.ilm.com
 
 https://www.unrealengine.com/industry/film-tv 
 
-Architecture: https://docs.unrealengine.com 
+Architecture : https://docs.unrealengine.com 
 
-Simulation et VR: https://docs.unrealengine.com 
+Simulation et VR : https://docs.unrealengine.com 
 
 Éducation : https://learn.unrealengine.com 
 
