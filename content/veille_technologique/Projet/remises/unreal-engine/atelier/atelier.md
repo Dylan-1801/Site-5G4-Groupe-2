@@ -73,3 +73,4 @@ Dans la scène:
 
 ### 4. Démarrer le jeu 
 Résultat attendu:
+<img src="/images/res-final.png" width="400">

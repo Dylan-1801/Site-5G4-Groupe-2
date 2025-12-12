@@ -8,6 +8,8 @@ icon: cpu
 
 - On va utiliser Unreal Engine mais en choisissant l’option C++ au lieu de BleuPrint pour faire un jeu de Piece et de Target comme on le remarque dans la photo suivante :
 
+<img src="/images/ajouter-projet.png" width="400">
+
 . Une fois que c’est créé, on va commencer avec le premier jeu: 
 
 . On clique sur Tools et création de classe avec C++. 
@@ -230,6 +232,8 @@ icon: cpu
 . On démarre le jeu pour tester. 
 
 - Résultat attendu :
+
+<img src="/images/res-ramasser.png" width="400">
 
 ----
 
@@ -456,3 +460,4 @@ icon: cpu
 . On démarre le jeu pour tester. 
 
 - Résultat attendu: 
+<img src="/images/res-tirer.png" width="400">
